@@ -148,6 +148,19 @@
         padding-top: 30px;
         min-height: 60vh;
     }
+    .main-donate{
+        background-color: #606060;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        min-height: 60vh;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .donate-top{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
     .cattitle{
         background-color: #606060;
         width: 100%;
@@ -242,7 +255,7 @@
         font-size: 1.1rem;
         font-weight: bold;
     }
-    #downloadbutt {
+    .downloadbutt {
         /*! background: #797979; */
         background: hsl(0, 0%, 60%);
         border-radius: 30px;
@@ -252,6 +265,9 @@
         bottom: 0px;
         /*! position: absolute; */
         /*! width: 85%; */
+    }
+    .downloadbutt2{
+        margin-top: 10px;
     }
     .right{
         position: relative;
@@ -285,63 +301,20 @@
         overflow: hidden;
         height: 225px;
     }
-    /*Slider*/
-     /*thanks to http://thenewcode.com/831/HTML5-Responsive-Image-Slider-With-Captions*/
-        div#captioned-gallery {
-            /*width: 90%;*/
-            overflow: hidden;
-            /*margin: 5%;*/
-        }
-        figure { margin: 0; }
-        @keyframes slidy {
-            0% { left: 0%; }
-            20% { left: 0%; }
-            25% { left: -100%; }
-            45% { left: -100%; }
-            50% { left: -200%; }
-            70% { left: -200%; }
-            75% { left: -300%; }
-            95% { left: -300%; }
-            100% { left: -400%; }
-        }
-        figure.slider {
-            position: relative;
-            width: 500%;
-            font-size: 0;
-            animation: 20s slidy infinite;
-        }
-        figure.slider figure {
-            width: 20%;
-            height: auto;
-            display: inline-block;
-            position: inherit;
-        }
-        figure.slider img {
-            width: 100%;
-            height: auto;
-        }
-        figure.slider figure figcaption {
-            position: absolute;
-            bottom: 0;
-            background: hsla(0, 0%, 11%, 0.79);
-            color: hsl(0, 0%, 90%);
-            width: 100%;
-            font-size: 1rem;
-            padding: .6rem;
-        }
-        figure.slider figure figcaption a:link {
-            color: hsl(0, 0%, 90%);
-        }
-        figure.slider figure figcaption a:visited {
-            color: hsl(0, 0%, 90%);
-        }
-        figure.slider figure figcaption a:hover {
-            color: hsl(0, 0%, 90%);
-        }
-        figure.slider figure figcaption a:active {
-            color: hsl(0, 0%, 90%);
-        }
-    /*Slider*/
+    .separator{
+        margin: 70px 0px;
+    }
+.paypal-donate {
+    text-align: center;
+}
+.paypal-form table {
+    width: 100%;
+}
+.paypal-form select {
+    background: transparent;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
     /*Modal*/
         /* The Modal (background) */
         .modal {
