@@ -426,8 +426,11 @@ input {
             padding: 0px;
         }
         #modal-img{
-            width: 100%;
+            /* width: 100%; */
             height: auto;
+        }
+        #modal-extlink{
+            font-weight: bold;
         }
         /* The Close Button */
         .close {
@@ -544,7 +547,8 @@ input {
             height: initial;
         }
         .left2{
-            width: 80%;
+            width: 50%;
+            text-align: center;
         }
         .right{
             width: 50%;
