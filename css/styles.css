@@ -492,7 +492,6 @@ input[type="checkbox"] {
     @media screen and (min-width: 722px) {
         #header{
             height: 62px;
-            display: table-caption;
             overflow: hidden;
             width: 100%;
         }
